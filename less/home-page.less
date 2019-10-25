@@ -6,6 +6,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-top: 2px dashed @navigation-border;
+    padding-top: 5%;
 
    
     
@@ -54,14 +56,10 @@
     display: flex;
     justify-content: space-between;
 
-    .btn {
-      font-size: 1.5rem;
-      border: 1px solid black;
-      padding: 5%;
-      text-align: center;
-      background-color: blue;
-      color: white;
+     .btn {
+      .button-style (@eastern-blue, @white);
     }
+
 
     .destination {
       width: 30%;

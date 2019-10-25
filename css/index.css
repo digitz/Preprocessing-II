@@ -171,13 +171,19 @@ img {
 nav {
   display: flex;
   justify-content: flex-end;
-  border-bottom: dotted;
+  border-bottom: 2px dashed #C0C0C0;
+}
+nav h1 {
+  padding: 1.5% 41% 1.5% 1.5%;
 }
 nav a {
-  padding: 3%;
+  padding: 3% 0% 3% 3%;
   font-size: 2rem;
   text-decoration: none;
   color: black;
+}
+img {
+  margin-bottom: 3%;
 }
 .footer {
   width: 100%;
@@ -195,6 +201,8 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-top: 2px dashed #C0C0C0;
+  padding-top: 5%;
 }
 .home .content-section .text-content {
   width: 48%;
@@ -234,11 +242,14 @@ nav a {
 }
 .home .content-pick .btn {
   font-size: 1.5rem;
-  border: 1px solid black;
+  border: 1px solid gray;
   padding: 5%;
   text-align: center;
-  background-color: blue;
   color: white;
+  border-radius: 10px;
+  max-width: 83%;
+  background-color: #17A2B8;
+  color: #FFFFFF;
 }
 .home .content-pick .destination {
   width: 30%;
